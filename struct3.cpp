@@ -18,9 +18,9 @@ struct Mahasiswa {
 int main() {
     Mahasiswa mhs;
     cout << "Nomor Mahasiswa: ";
-    cin >> mhs.NIM;
+    getline(cin, mhs.NIM);
     cout << "Nama Mahasiswa: ";
-    cin >> mhs.nama;
+    getline(cin, mhs.nama);
     cout << "Alamat Mahasiswa: " << endl;
     cout << "\t Nama Desa: ";
     cin >> mhs.alamat.desa;

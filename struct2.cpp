@@ -25,3 +25,9 @@ int main() {
     cout << "\n Alamat : " << mhs.alamat;
     cout << "\n Umur : " << mhs.umur;
 }
+
+struct DetailAlamat
+{
+    string desa;
+    string kota;
+};

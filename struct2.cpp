@@ -1,17 +1,18 @@
 #include <iostream>
 using namespace std;
 
-struct Mahasiswa {
-    string NIM;
-    string nama;
-    string alamat;
-    int umur;  
-};
-
 struct DetailAlamat
 {
     string desa;
     string kota;
+};
+
+struct Mahasiswa {
+    string NIM;
+    string nama;
+    string alamat;
+    DetailAlamat alamat;
+    int umur;  
 };
 
 int main() {
